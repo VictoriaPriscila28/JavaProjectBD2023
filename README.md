@@ -1,6 +1,6 @@
 # Projeto de Criptografia de Texto
 
-Este é um projeto desenvolvido para a disciplina de Banco de Dados com o objetivo de implementar um sistema de encriptação de texto. O projeto utiliza a linguagem de programação Java para realizar a criptografia e o banco de dados MySQL para armazenar as chaves e os textos criptografados.
+Este é um projeto desenvolvido para a disciplina de Banco de Dados com o objetivo de implementar um sistema de encriptação de texto. O projeto utiliza a linguagem de programação Java para realizar a criptografia, e posteriormente será criado o banco de dados MySQL para armazenar as chaves e os textos criptografados.
 
 ## Funcionalidades
 
@@ -14,27 +14,19 @@ Este é um projeto desenvolvido para a disciplina de Banco de Dados com o objeti
 
 - Java: Utilizado para implementar a lógica da criptografia e integração com o banco de dados.
 
-- MySQL: Utilizado como banco de dados para armazenar as chaves de encriptação e os textos criptografados.
-
-- JDBC: Biblioteca utilizada para fazer a conexão entre o Java e o banco de dados MySQL.
-
 ## Requisitos
 
 - Java 8 ou superior instalado no sistema.
-
-- Banco de dados MySQL configurado e funcionando.
 
 ## Como Executar o Projeto
 
 1. Clone o repositório para o seu computador.
 
-2. Crie um banco de dados no MySQL com a estrutura apropriada para armazenar as chaves e os textos criptografados. O script SQL para criar as tabelas pode ser encontrado na pasta "database" do projeto.
+2. Configure as informações de conexão com o banco de dados no arquivo "config.properties" do projeto.
 
-3. Configure as informações de conexão com o banco de dados no arquivo "config.properties" do projeto.
+3. Execute o projeto utilizando uma IDE Java ou compilando e executando manualmente.
 
-4. Execute o projeto utilizando uma IDE Java ou compilando e executando manualmente.
-
-5. Siga as instruções na interface do sistema para criptografar ou descriptografar textos.
+4. Siga as instruções na interface do sistema para criptografar ou descriptografar textos.
 
 ## Contribuições
 
@@ -44,7 +36,7 @@ Contribuições são bem-vindas! Se você deseja contribuir com melhorias, corre
 
 Este projeto é licenciado sob a [MIT License](LICENSE). Sinta-se à vontade para usá-lo e modificá-lo de acordo com as suas necessidades.
 
-**Nota:** Este projeto é apenas para fins acadêmicos e não deve ser utilizado para fins de segurança ou criptografia de dados sensíveis em ambientes de produção.
+
 
 
 
